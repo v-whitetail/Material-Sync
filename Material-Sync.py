@@ -36,7 +36,7 @@ def pollMaterialLibrary():
     local_mtime = os.stat(MATERIAL_SYNC_FILE).st_mtime
     global thread_state
     while thread_state is True:
-        time.sleep(0.5)
+        time.sleep(12)
         local_mtime = refreshMaterialLibrary(local_mtime)
 
 def refreshMaterialLibrary(mtime: float):
