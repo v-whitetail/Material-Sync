@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"addin",
+	"id":	"4d00cecc-0e72-42bc-8f01-b3a8e6019bd7",
+	"author":	"v-whitetail",
+	"description":	{
+		"":	"A Utility to Automatically Update a Material Library From a Sharable File"
+	},
+	"version":	"0.1",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
